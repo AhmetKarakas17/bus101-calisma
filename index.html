@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BUS101</title>
+<meta name="description" content="BUS101 için çalışma kartları, testler ve sınav provası (Business in Action, Bovée & Thill, 10. baskı).">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#2443B8">
+<meta property="og:title" content="BUS101">
+<meta property="og:description" content="Kartlar, doğru/yanlış, boşluk doldurma, açık uçlu sorular ve sınav provası.">
+<meta property="og:type" content="website">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script src="theme.js"></script>
+</head>
+<body>
+<a class="skip" href="#view">İçeriğe geç</a>
+<div class="shell">
+  <aside class="side">
+    <a class="brand" href="#/ozet">
+      <img src="icon.svg" alt="" width="36" height="36">
+      <span><b>BUS101</b><small>Business in Action</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Çalışma modları">
+      <a href="#/ozet" data-r="ozet">Özet</a>
+      <a href="#/kartlar" data-r="kartlar">Kartlar</a>
+      <a href="#/test" data-r="test">Test</a>
+      <a href="#/dogru-yanlis" data-r="dogru-yanlis">Doğru/Yanlış</a>
+      <a href="#/bosluk" data-r="bosluk">Boşluk</a>
+      <a href="#/acik-uclu" data-r="acik-uclu">Açık uçlu</a>
+      <a href="#/hatalar" data-r="hatalar">Hatalarım<span class="count" id="wrongCount" hidden></span></a>
+      <a href="#/sozluk" data-r="sozluk">Sözlük</a>
+    </nav>
+    <button class="theme" id="theme" type="button"></button>
+  </aside>
+
+  <div class="content">
+    <div class="chips" id="chapters" role="group" aria-label="Bölüm seç"></div>
+    <main id="view" tabindex="-1"></main>
+    <footer class="foot">
+      Kaynak: Bovée &amp; Thill, <i>Business in Action</i> (10. baskı) ve ders slaytları.
+      Kişisel çalışma notudur, resmî ders materyali değildir. İlerlemen yalnızca bu cihazda saklanır.
+    </footer>
+  </div>
+</div>
+<noscript><p class="noscript">Bu site çalışmak için JavaScript gerektirir.</p></noscript>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

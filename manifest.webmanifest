@@ -1,0 +1,13 @@
+{
+  "name": "BUS101",
+  "short_name": "BUS101",
+  "lang": "tr",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#EDF1F6",
+  "theme_color": "#2443B8",
+  "icons": [
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
